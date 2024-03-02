@@ -1,17 +1,17 @@
 # Requirements Checker
 
-This is a python3 program that checks if the libraries in the requirements file are up to date.
+This is a Python 3 program that checks if the libraries in the requirements file are up to date.
 
 ## Usage
 
-This script is uploaded on the https://pypi.org website at the url : https://pypi.org/project/check-library. 
-To use this script and check and update your libraries, you are to install the pip library using this command : `pip3 install check-library`.
+This script is uploaded to the https://pypi.org website at the URL: https://pypi.org/project/check-library. To use this script and check/update your libraries, you need to install the pip library using the following command: `pip3 install check-library`.
 
-After this installation, you will have to run this command to execute the scirpt and get the help:
+After installation, run the following command to execute the script and get help:
+
 ```shell
 check-library --help
 ```
-It will give you all specification needed : 
+It will provide you with all the necessary specifications:
 
 ```txt
 usage: check_library [-h] [-p FILE] [-v] [-f]
@@ -27,17 +27,17 @@ optional arguments:
 ```
 
 - `check-library`   
-We can see that we can use the script with no option. It will take the `requirements.txt` at the same location as your current path, check the libraries and create an other file `requirements-output.txt` which will be the older file updated.
+You can use the script with no options. It will take the `requirements.txt` file at the same location as your current path, check the libraries, and create another file `requirements-output.txt` as the updated version.
 
 - `check-library -p Lib/requirements.txt` or `check-library --path Lib/requirements.txt`   
-It will take the `requirements.txt` at the same location Lib/, check the libraries and create an other file `requirements-output.txt` which will be the older file updated at the same location as your current path with the default name(requirements-output.txt).
+In this example, it will take the `requirements.txt` file located in Lib/, check the libraries, and create another file `requirements-output.txt` at the same location as your current path with the default name (requirements-output.txt).
 
 - `check-library -p Lib/requirements.txt -o updated_requirements.txt`   
-It will take the `requirements.txt` at the same location Lib/, check the libraries and create an other file `requirements-updated_requirements.txt` which will be the older file updated at the same location as your current path with the `updated_requirements.txt`.
+In this example, it will take the `requirements.txt` file located in Lib/, check the libraries, and create another file `updated_requirements.txt` as the updated version at the same location as your current path.
+
 
 - `check-library -p Lib/requirements.txt -v -f`      
-Thoses 2 news options allowig the scrit:
-    - -v : The verbose (default) False. To set it as True, just put the -v at the end of yours queries.
-    - -f : It will erase the input file to put new libraries inside. 
-
+These two new options allow the script:
+  - -v: Verbose (default: False). To set it as True, simply add -v at the end of your queries.
+  - -f: Erases the input file to include new libraries inside.
 

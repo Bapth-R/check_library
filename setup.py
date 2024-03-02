@@ -13,7 +13,7 @@ setup(
     ],
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: Apache 2',
         'Operating System :: OS Independent',
     ],
     entry_points={
