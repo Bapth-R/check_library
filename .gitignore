@@ -1,0 +1,10 @@
+venv/
+.pypirc
+.DS_Store/
+__pycache__
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
