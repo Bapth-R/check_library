@@ -41,3 +41,7 @@ These two new options allow the script:
   - -v: Verbose (default: False). To set it as True, simply add -v at the end of your queries.
   - -f: Erases the input file to include new libraries inside.
 
+# Support
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/baptisteral)
+
+
